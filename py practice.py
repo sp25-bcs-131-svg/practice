@@ -1,3 +1,9 @@
+# This is my revision for python
+""" Comments 
+which are 
+multilined """
+
+
 print("Hello , World")
 print(23)
 print(40+60)
@@ -43,4 +49,16 @@ print(x*y)
 print(x/y)
 print(x//y)
 
+name = input("name: ")
+age = int(input("age: "))
+price = float(input("price: "))
 
+light = input("What colour is the light? : ")
+if(light == "red"):
+    print("Stop")
+elif(light == "yellow"):
+    print("Get ready")
+elif(light == "green"):
+    print("Go")
+else:
+    print("Light is broken")
