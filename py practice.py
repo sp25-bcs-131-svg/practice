@@ -27,3 +27,10 @@ print(product)
 print(div)
 print(exp)
 print(mod)
+
+A = 2
+B = 3
+Txt = "$"
+print(A*Txt*B)
+D = "2"
+print((D+Txt)*B)
