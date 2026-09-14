@@ -21,6 +21,8 @@ product = a * b
 div = b / a
 exp = a ** b
 mod = b % a
+int_div = b // a
+print(int_div)
 print(sum)
 print(diff)
 print(product)
@@ -40,4 +42,5 @@ y = 5.0
 print(x*y)
 print(x/y)
 print(x//y)
+
 
