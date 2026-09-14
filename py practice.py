@@ -62,3 +62,11 @@ elif(light == "green"):
     print("Go")
 else:
     print("Light is broken")
+
+#Ternary operator
+sports = input("Which sports sre you gonna play? :")
+play = "Yes I will play" if sports == "football" else "No I dont play it"
+print(play)
+
+school = input("Which school do you go to? : ")
+print("I also went there") if school == "lgs" else print("Ok , nice school")
