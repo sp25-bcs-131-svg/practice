@@ -34,3 +34,10 @@ Txt = "$"
 print(A*Txt*B)
 D = "2"
 print((D+Txt)*B)
+
+x = 10
+y = 5.0
+print(x*y)
+print(x/y)
+print(x//y)
+
