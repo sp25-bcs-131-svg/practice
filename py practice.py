@@ -104,3 +104,11 @@ print(num)
 num //= 2
 print(num)
 
+#Logical Operator 
+val1 = True
+val2 = False
+print(val1 and val2)
+print(val1 or val2)
+print(not val1)
+
+
