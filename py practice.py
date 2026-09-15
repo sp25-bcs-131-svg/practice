@@ -48,7 +48,7 @@ y = 5.0
 print(x*y)
 print(x/y)
 print(x//y)
-
+'''
 name = input("name: ")
 age = int(input("age: "))
 price = float(input("price: "))
@@ -70,3 +70,8 @@ print(play)
 
 school = input("Which school do you go to? : ")
 print("I also went there") if school == "lgs" else print("Ok , nice school")
+'''
+#Clever if 
+iq = int(input("What is your IQ? : "))
+hyp = ("Good IQ","Bad IQ")[iq < 100]
+print(hyp)
