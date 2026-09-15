@@ -70,8 +70,21 @@ print(play)
 
 school = input("Which school do you go to? : ")
 print("I also went there") if school == "lgs" else print("Ok , nice school")
-'''
+
 #Clever if 
 iq = int(input("What is your IQ? : "))
 hyp = ("Good IQ","Bad IQ")[iq < 100]
 print(hyp)
+'''
+
+#Relational Operators
+num1 = 10
+num2 = 20
+print(num1 == num2)
+print(num1 != num2)
+print(num1 > num2)
+print(num1 < num2)
+print(num1 >= num2)
+print(num1 <= num2)
+
+
