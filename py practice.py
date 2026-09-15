@@ -48,7 +48,7 @@ y = 5.0
 print(x*y)
 print(x/y)
 print(x//y)
-'''
+
 name = input("name: ")
 age = int(input("age: "))
 price = float(input("price: "))
@@ -75,7 +75,6 @@ print("I also went there") if school == "lgs" else print("Ok , nice school")
 iq = int(input("What is your IQ? : "))
 hyp = ("Good IQ","Bad IQ")[iq < 100]
 print(hyp)
-'''
 
 #Relational Operators
 num1 = 10
@@ -111,4 +110,20 @@ print(val1 and val2)
 print(val1 or val2)
 print(not val1)
 
+#Type casting
+t = 2
+u = 4.25
+sum = t + u
+print(sum)
 
+#Type casting 
+h = 2
+i = "2"
+j = int(i)
+k = h + j
+print(k)
+
+#practice
+value1 = float(input("Enter first value: "))
+value2 = float(input("Enter second value: "))
+print("Average:", (value1 + value2) / 2)
