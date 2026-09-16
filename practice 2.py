@@ -36,3 +36,11 @@ elif(age <= 13 and age > 3):
     print("CHILD")
 else:
     print("NEW BORN")
+
+if(age > 18):
+    if (age > 80):
+        print("Too old to drive")
+    else:
+        print("You can drive")
+else:
+    print("You are too young to drive")
