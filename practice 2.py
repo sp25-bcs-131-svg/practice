@@ -16,5 +16,23 @@ print(full[6:])
 print(full[-5:-1])
 print(full[:8])
 
+str = "coder"
+print(str.endswith("er"))
+print(str.startswith("co"))
+print(str.capitalize())
+print(str.upper())
+print(str.replace("co","mo"))
+print(str.find("d"))
+print(str.count("o"))
 
-
+age = int(input("Enter your age: "))
+if(age >= 45):
+    print("OLD")
+elif(age > 18 and age < 45):
+    print("ADULT")
+elif(age <= 18 and age > 13):
+    print("TEENAGER")
+elif(age <= 13 and age > 3):
+    print("CHILD")
+else:
+    print("NEW BORN")
