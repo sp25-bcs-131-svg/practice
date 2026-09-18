@@ -35,3 +35,20 @@ print(dict.values())
 print(dict.items())
 print(dict.get("name"))
 print(dict.update({"name": "Ali"}))
+
+#Sets
+nums = {1, 2, 3, 4, 5}
+print(nums)
+null_set = set()
+print(null_set)
+set1 = {1, 2, 2, "hello", "world", "world"}
+print(set1)
+print((len(set1)))
+set1.add("Python")
+print(set1)
+set1.remove("hello")
+print(set1)
+nums.clear()
+print(nums)
+set1.pop()
+print(set1)
