@@ -58,3 +58,57 @@ for val in tuple1:
 str = "metamorphasis"
 for char in str:
     print(char)
+else:
+    print("End")
+
+#qs6
+list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+for val in list1:
+    print(val)
+
+tuple2 = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+r = 10
+index = 0
+for val in tuple2:
+    if (val == r):
+        print("Number found at", index)
+        break
+    index += 1
+
+for el in range(5):
+    print(el)
+
+for el in range(1, 10):
+    print(el)
+
+for el in range(1, 20 , 2):
+    print(el)
+
+for i in range(10 , 1, -1):
+    print(i)
+
+for i in range(5):
+    pass
+
+if i > 5:
+    pass
+
+sum = 0
+n = int(input("Enter the number:"))
+i = 0
+while i <= n:
+    sum += i
+    i += 1
+print(sum)
+
+fact = 1
+n = 5
+for val in range(1, n+1):
+    fact *= n
+print(fact)
+
+
+    
+
+
+                
