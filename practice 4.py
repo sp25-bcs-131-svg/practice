@@ -52,3 +52,12 @@ nums.clear()
 print(nums)
 set1.pop()
 print(set1)
+
+marks1 = int(input("Enter your marks: "))
+marks2 = int(input("Enter your marks: "))
+marks3 = int(input("Enter your marks: "))
+dict2 = {}
+dict2["subject1"] = marks1
+dict2["subject2"] = marks2
+dict2["subject3"] = marks3
+print(dict2)
