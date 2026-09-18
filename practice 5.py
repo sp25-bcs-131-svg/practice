@@ -33,5 +33,28 @@ y = 0
 while y <= (len(tuple)-1):
     if x == tuple[y]:
         print("Number found at index",y)
+        break
+    else:
+        print("Number not found")
     y += 1
 
+h = 1
+while h <= 10:
+    if( h%2 != 0):
+       h += 1
+       continue
+    print(h) 
+    h += 1
+
+#For Loops             
+list = ["talha", 1, 2, 3, 5.55]
+for el in list:
+    print(el)
+
+tuple1 = (1, 2, 3, 4, 5, 6, 7)
+for val in tuple1:
+    print(val)
+
+str = "metamorphasis"
+for char in str:
+    print(char)
