@@ -6,7 +6,7 @@ file = open("demo.txt","r")
 #data = file.read()
 #print(data)
 line1 = file.readline()
-print(line1)
+print(line1)                  
 file.close()
 
 #Writing in a file
@@ -30,7 +30,7 @@ file3.close()
 file3 = open("demo.txt","w+")
 print(file3.read)
 file3.close()
-"""       
+"""      
 
 #file = open("demo.txt","a+")
 #read + append (pointer at end , no truncate) 
@@ -39,4 +39,27 @@ with open("demo1.txt","r") as f:
     data = f.read()
     print(data)
 
-os.remove("sample.txt")
+#os.remove("sample.txt")
+
+def check_for_line():
+    word = "name"
+    data = True
+    line = 1
+    with open("demo1.txt","r") as f:
+        while data:
+            data = f.readline()
+            if(word in data):
+                print(line)
+            line += 1
+
+def check_for_word():
+    word = "name"
+    with open("demo1.txt","r") as f:
+        if(word in data):
+            print("Found")
+        else:
+            print("not found")
+        
+
+check_for_word()
+check_for_line()
