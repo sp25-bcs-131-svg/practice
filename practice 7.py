@@ -1,3 +1,4 @@
+import os
 #File I/O
 
 #Reading a file
@@ -32,4 +33,10 @@ file3.close()
 """       
 
 #file = open("demo.txt","a+")
-#read + append (pointer at end , no truncate)
+#read + append (pointer at end , no truncate) 
+
+with open("demo1.txt","r") as f:
+    data = f.read()
+    print(data)
+
+os.remove("sample.txt")
