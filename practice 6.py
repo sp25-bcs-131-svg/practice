@@ -15,7 +15,35 @@ def average(a,b,c):
     return avg
 print(average(3,4,5))
 
-#Default Parameters
+#Default Parameters          
 def calc_product(a=2,b=4):
     print(a*b)
 calc_product()
+
+#qs1
+def calc_len(list1):
+    return len(list1)
+print(calc_len([1,2,3,4,5]))
+
+#qs2
+def print_elements(list1):
+    i = 0
+    while i <= (len(list1)-1):
+        print(list1[i] , end=" ") 
+        i += 1           
+print_elements(["t","a","l","h","a"])
+print()
+
+#qs3
+def exchange_rate(usd):
+    pkr = usd * 276.82 
+    print(pkr)
+exchange_rate(5500)
+
+#qs4
+def odd_even(a):
+    if( a%2 == 0):
+        print("Even number")
+    else:
+        print("Odd number")
+odd_even(9)
