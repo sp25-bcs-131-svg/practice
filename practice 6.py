@@ -47,3 +47,31 @@ def odd_even(a):
     else:
         print("Odd number")
 odd_even(9)
+
+#Recursion
+def show(n):
+    if (n == 0):
+        return
+    print(n)
+    show(n-1)
+show(4)
+
+def fact(n):
+    if(n == 0 or n == 1):
+        return 1
+    else:
+        return (n * fact(n-1))
+print(fact(5))
+
+def calculate_sum(n):
+    if(n == 0):
+        return 0
+    return calculate_sum(n-1) + n
+print(calculate_sum(5))
+
+def print_list(list1 , index=0):
+    if(index == len(list1)):
+        return
+    print(list1[index])
+    print_list(list1 , index+1)
+print_list(["m","u","n","i","r"])
