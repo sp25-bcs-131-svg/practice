@@ -18,3 +18,12 @@ def add_expense(category,amount):
         expense[category] += amount
     else :
         expense[category] = amount
+
+    print(f"Added {amount} to categoty '{category}'")
+
+def get_summary():
+    print("         EXPENSE & BUDGET SUMMARY        ")
+
+    total_expense = sum(expense.values())
+    remaining_balance = income - total_expense
+    
