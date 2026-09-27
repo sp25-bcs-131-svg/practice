@@ -14,4 +14,7 @@ def set_income():
 
 def add_expense(category,amount):
     category = category.strip().title()
-    
+    if category in expense:
+        expense[category] += amount
+    else :
+        expense[category] = amount
