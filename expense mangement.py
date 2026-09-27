@@ -12,3 +12,6 @@ def set_income():
     except ValueError:
         print("Invalid input! Please enter a valid number")
 
+def add_expense(category,amount):
+    category = category.strip().title()
+    
