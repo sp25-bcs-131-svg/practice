@@ -26,4 +26,7 @@ def get_summary():
 
     total_expense = sum(expense.values())
     remaining_balance = income - total_expense
-    
+
+    print(f"Total Income:     {income}")
+    print(f"Total Expenses:   ${total_expense}")
+    print(f"Remaining:        ${remaining_balance}")
