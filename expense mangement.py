@@ -2,6 +2,7 @@ income = 0
 expense = {}
 
 def set_income():
+    income
     try:
         val = float(input("\nEnter total montly income : "))
         if val < 0:
@@ -48,6 +49,8 @@ def get_summary():
         print("You are within your budget!")
 
 def reset_data():
+    income
+    expense
     confirm = input("\nAre you sure you want to reset all data? (y/n): ").strip().lower()
     if confirm == 'y':
         income = 0
